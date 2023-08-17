@@ -7,6 +7,6 @@ if 'a' in name:
 if name.find('war') != -1:
     print('Yes, it contains the string "war"')
 
-delimiter = '_*_'
+delimiter = '__*__'
 mylist = ['Brazil', 'Russia', 'India', 'China']
 print(delimiter.join(mylist))
